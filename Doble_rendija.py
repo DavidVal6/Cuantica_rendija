@@ -16,6 +16,9 @@ def accion(estado,rendija):
 def main():
     ticks = stdin.readline().strip()
     ticks = int(ticks)
+
+    # Para rendija se uso la naturaleza de los complejos en python para facilitar la escritura de la matriz
+
     rendija = [[0,0,0,0,0,0,0,0],[1/math.sqrt(2),0,0,0,0,0,0,0],[1/math.sqrt(2),0,0,0,0,0,0,0], [0,-1/math.sqrt(6)+1j/math.sqrt(6),0,1,0,0,0,0],[0,-1/math.sqrt(6)-1j/math.sqrt(6),0,0,1,0,0,0],[0,1/math.sqrt(6)-1j/math.sqrt(6),-1/math.sqrt(6)+1j/math.sqrt(6),0,0,1,0,0],[0,0,-1/math.sqrt(6)-1j/math.sqrt(6),0,0,0,1,0],[0,0,1/math.sqrt(6)-1j/math.sqrt(6),0,0,0,0,1]]
     estado = [1,0,0,0,0,0,0,0]
     for i in range(ticks):
