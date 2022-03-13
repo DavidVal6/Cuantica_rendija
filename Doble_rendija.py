@@ -4,8 +4,6 @@
  - ANDRES AJIACO
  CNYT , COMPETENCIA RENDIJA
  """
-
-
 import math
 from sys import stdin
 import numpy as np
