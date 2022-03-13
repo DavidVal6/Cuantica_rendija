@@ -31,6 +31,6 @@ def main():
 
     for i in range(ticks_totales):
         estado = accion(m1, estado)
-        print(estado)
+    print(estado)
 
 main()
