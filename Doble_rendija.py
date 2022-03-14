@@ -29,7 +29,7 @@ def main():
         print("Posicion:",i)
         a = estado[i].real
         b = estado[i].imag
-        print("La probabilidad es:\n", probabilidad(a,b))
+        print("La probabilidad es:\n", probabilidad(a,b)*100, "%")
     for i in range(len(estado)):
         print("{:.2f}".format(estado[i]),",")
     print()
